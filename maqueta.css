@@ -1,0 +1,42 @@
+:root {
+  --blue: #dae8fc;
+  --darkBlue: #6c8ebf;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1em;
+  padding: 10px;
+}
+
+nav,
+aside,
+footer {
+  padding: 20px 0px;
+}
+
+.box {
+  text-align: center;
+  width: 100%;
+  background: var(--blue);
+  border: 1px solid var(--darkBlue);
+  margin-bottom: 15px;
+}
+
+.header__cabecera {
+  padding: 40px 0px;
+}
+
+.section__cuerpo {
+  padding: 70px;
+}
+
+.nav1 {
+  margin-bottom: 8px;
+}
