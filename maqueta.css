@@ -23,7 +23,7 @@ footer {
 
 .box {
   text-align: center;
-  width: 100%;
+  max-width: 100%;
   background: var(--blue);
   border: 1px solid var(--darkBlue);
   margin-bottom: 15px;
@@ -39,4 +39,33 @@ footer {
 
 .nav1 {
   margin-bottom: 8px;
+}
+
+@media (min-width: 700px) and (max-width: 1200px) {
+  body {
+    font-family:
+      Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  }
+
+  .nav1 {
+    float: left;
+    width: 20%;
+    padding-top: 180px;
+    padding-bottom: 180px;
+  }
+
+  .nav2 {
+    display: none;
+  }
+
+  .section__cuerpo {
+    float: right;
+    width: 78%;
+    padding-top: 180px;
+    padding-bottom: 180px;
+  }
+
+  .aside__banner {
+    clear: both;
+  }
 }
