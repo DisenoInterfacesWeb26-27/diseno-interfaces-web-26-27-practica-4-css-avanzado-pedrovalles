@@ -12,13 +12,13 @@
 body {
   font-family: 'Times New Roman', Times, serif;
   font-size: 1em;
-  padding: 10px;
+  padding: 15px;
 }
 
 nav,
 aside,
 footer {
-  padding: 20px 0px;
+  padding: 25px 0;
 }
 
 .box {
@@ -50,8 +50,7 @@ footer {
   .nav1 {
     float: left;
     width: 20%;
-    padding-top: 180px;
-    padding-bottom: 180px;
+    padding: 180px 0px;
   }
 
   .nav2 {
@@ -61,11 +60,45 @@ footer {
   .section__cuerpo {
     float: right;
     width: 78%;
-    padding-top: 180px;
-    padding-bottom: 180px;
+    padding: 180px 0;
   }
 
   .aside__banner {
+    clear: both;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .nav1 {
+    float: left;
+    width: 20%;
+    padding: 180px 0;
+    margin-bottom: 15px;
+  }
+
+  .nav2 {
+    float: right;
+    width: 79%;
+  }
+
+  .section__cuerpo {
+    float: left;
+    width: calc(40% - 15px);
+    margin-left: 1%;
+    padding: 142px 0;
+  }
+
+  .aside__banner {
+    float: right;
+    width: calc(40% - 15px);
+    padding: 142px 0;
+  }
+
+  .footer {
     clear: both;
   }
 }
