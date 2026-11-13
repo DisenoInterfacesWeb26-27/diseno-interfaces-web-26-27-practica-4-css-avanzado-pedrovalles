@@ -1,0 +1,21 @@
+/* ----- FUENTES LOCALES -----*/
+@font-face {
+  font-family: 'Google Sans Flex';
+  src: url('../webfonts/GoogleSansFlexLight.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Google Sans Flex';
+  src: url('../webfonts/GoogleSansFlexRegular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Google Sans Flex';
+  src: url('../webfonts/GoogleSansFlexBold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
