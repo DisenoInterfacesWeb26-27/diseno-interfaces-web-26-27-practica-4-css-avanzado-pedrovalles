@@ -634,3 +634,16 @@ tbody tr:nth-child(even) {
   font-family: inherit;
   font-size: 1em;
 }
+
+/*--- Selector de atributos --*/
+
+img:not([alt]),
+img[alt=''] {
+  border: 3px solid red;
+}
+
+a[href$='.pdf']::after {
+  content: url('../images/iconPdf.png');
+  margin-left: 6px;
+  vertical-align: middle;
+}
