@@ -1,0 +1,8 @@
+@media print {
+  header,
+  aside,
+  footer,
+  .section__encabezado p {
+    display: none;
+  }
+}
