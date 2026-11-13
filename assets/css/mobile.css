@@ -1,0 +1,22 @@
+@media (max-width: 700px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  .btn {
+    font-size: 15px;
+    padding: 8px;
+  }
+
+  .section__serv--tabla {
+    overflow-x: auto;
+  }
+
+  .section__serv--tabla thead {
+    background-color: #1e3a44;
+  }
+
+  .section__formulario--contenedor {
+    border-radius: 0px;
+  }
+}
