@@ -136,6 +136,10 @@ button:hover {
   background-color: #1e3a44;
   color: #ffffff;
   transition: background-color 0.5s linear;
+  -moz-transition: background-color 0.5s linear;
+  -webkit-transition: background-color 0.5s linear;
+  -o-trans-webkit-transition: background-color 0.5s linear;
+  -ms-trans-webkit-transition: background-color 0.5s linear;
 }
 
 .btn__principal:link,
@@ -157,6 +161,10 @@ button:hover {
   color: #ffffff;
   border: 2px solid #ffffff;
   transition: transform 0.2s ease;
+  -moz-transition: transform 0.2s ease;
+  -webkit-transition: transform 0.2s ease;
+  -o-transition: transform 0.2s ease;
+  -ms-transition: transform 0.2s ease;
 }
 
 .btn__secundario:link,
@@ -169,6 +177,10 @@ button:hover {
   border: 2px solid #1e3a44;
   color: #ffffff;
   transform: rotate(-4deg) translateX(4px);
+  -moz-transform: background-color 0.5s linear;
+  -webkit-transform: background-color 0.5s linear;
+  -o-transform: background-color 0.5s linear;
+  -ms-transform: background-color 0.5s linear;
 }
 
 .btn__secundario:active {
@@ -181,6 +193,10 @@ button:hover {
   color: #1e3a44;
   border: 2px solid #1e3a44;
   transition: background-color 0.5s linear;
+  -moz-transition: background-color 0.5s linear;
+  -webkit-transition: background-color 0.5s linear;
+  -o-tra-webkit-transition: background-color 0.5s linear;
+  -ms-tra-webkit-transition: background-color 0.5s linear;
 }
 
 .btn__verMas:link,
@@ -201,6 +217,10 @@ button:hover {
   border-radius: 5px;
   border: 0px solid #1995ad;
   transition: background-color 0.5s linear;
+  -moz-transition: background-color 0.5s linear;
+  -webkit-transition: background-color 0.5s linear;
+  -o-tra-webkit-transition: background-color 0.5s linear;
+  -ms-tra-webkit-transition: background-color 0.5s linear;
 }
 
 .aside__enlace:link {
