@@ -135,12 +135,14 @@ button:hover {
 .btn__principal {
   background-color: #1e3a44;
   color: #ffffff;
+  transition: background-color 0.5s linear;
 }
 
 .btn__principal:link,
 .btn__principal:visited {
   background-color: #1e3a44;
   color: #ffffff;
+  transition: background-color 1s linear;
 }
 
 .btn__principal:hover {
@@ -155,6 +157,7 @@ button:hover {
   background-color: transparent;
   color: #ffffff;
   border: 2px solid #ffffff;
+  transition: transform 0.2s ease;
 }
 
 .btn__secundario:link,
@@ -166,6 +169,7 @@ button:hover {
   background-color: #1e3a44;
   border: 2px solid #1e3a44;
   color: #ffffff;
+  transform: rotate(-4deg) translateX(4px);
 }
 
 .btn__secundario:active {
@@ -177,6 +181,7 @@ button:hover {
 .btn__verMas {
   color: #1e3a44;
   border: 2px solid #1e3a44;
+  transition: background-color 0.5s linear;
 }
 
 .btn__verMas:link,
@@ -196,6 +201,7 @@ button:hover {
   color: #1e3a44;
   border-radius: 5px;
   border: 0px solid #1995ad;
+  transition: background-color 0.5s linear;
 }
 
 .aside__enlace:link {
@@ -270,10 +276,15 @@ button:hover {
 .iconWhatsapp img {
   width: 32px;
   vertical-align: middle;
+  transition: transform 0.5s ease;
 }
 
 .iconWhatsapp:hover {
   background-color: #1995ad;
+}
+
+.iconWhatsapp:hover img {
+  transform: rotate(360deg);
 }
 
 .iconWhatsapp:active {
